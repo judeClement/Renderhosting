@@ -1,0 +1,131 @@
+
+.bg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    /* background-size: cover; */
+    background-position: calc();
+    /* background: url('../images/img2.png') no-repeat ; */
+   
+}
+
+.wrapper{
+    
+    position: relative;
+    width: 745px;
+    height: 445px;
+    color: #006058;
+    margin-left: 0%;
+
+}
+
+.wrapper .form-box {
+    position: absolute;
+    top: 0;
+    width: 45%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -730px;
+    margin-left: 1105px;
+    border-radius: 30px;
+}
+
+.wrapper .form-box.adminlogin {
+    left: 0;
+    background: #30c81cba;
+    background: transparent;
+    padding: 0 40px;
+    background-image: linear-gradient(to top,rgba(24, 190, 208, 0.889),#2d8e8467) ;
+}
+
+.form-box h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#06931bb6 ;
+    text-align: center;
+}
+
+.form-box .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    /* color: white; */
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: #42b4603d;
+    border: none;
+    outline-color: rgba(0, 238, 255, 0); 
+    border-radius: 20px;
+    /* border-bottom: 2px solid #08a2a2; */
+    padding-right: 23px;
+    font-size: 16px;
+    color: #025043b6;
+    font-weight: 500;
+    transition: .5s;
+    
+}
+
+.input-box input:focus,
+.input-box input:valid {
+   border-bottom: #0ef;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ffffff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+    color: #0ef;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.input-box input:focus~i,
+.input-box input:valid~i {
+    color: black;
+}
+
+.btn {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to top,#06931bb6,#28a99e) ;
+    /* background-image: teal; */
+    border-radius:100px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+}
+

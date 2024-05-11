@@ -1,0 +1,49 @@
+
+.studentlog {
+  height: 100vh;
+  /* background-image: linear-gradient(to top,commonTeal); */
+  background: url('../assets/studentlogin09.gif') no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 206vh;
+}
+
+
+.input {
+  width: 60%;
+  padding: 2vh;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.login-form {
+  border: 5px solid #000000;
+  width: 39%;
+  height: 54.5%;
+  border-radius: 50px;
+  margin-top:-255px;
+  margin-left: 650px;
+  /* margin-bottom: 10px; */
+  background-color:whitesmoke;
+  /* background-image: linear-gradient(to top,rgba(8, 146, 81, 0.81),rgb(31, 191, 183)) ; */
+  box-shadow: 0 0 10px  rgb(38, 10, 3);
+  background-image: linear-gradient(to top,rgba(24, 190, 208, 0.059),#2d8e8421) ;
+}
+
+.input input {
+  color: #006D5B !important;
+}
+.input .MuiOutlinedInput-notchedOutline {
+  border-color: #006D5B !important;
+}
+
+.green-label {
+  color: #006D5B !important;
+}
+
+.logimage{
+  width: 120px;
+  margin-top: 5px;
+}
