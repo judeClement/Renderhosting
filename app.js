@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors=require('cors')
 require('dotenv').config();
+import path from 'path';
 
 const studentlogRouter = require('./Routes/studentlogRoutes');
 const studentlogDb = require('./Db/studentlogDb');
